@@ -1,9 +1,19 @@
 import './App.css';
+import LeftMenu from './Components/LeftMenu';
+import MainContainer from './Components/MainContainer';
+import RightMenu from './Components/RightMenu';
 
 function App() {
   return (
     <div className="App">
-     
+     <LeftMenu></LeftMenu>
+     <MainContainer></MainContainer>
+     <RightMenu></RightMenu>
+
+     <div className='background'></div>
+
+
+
     </div>
   );
 }

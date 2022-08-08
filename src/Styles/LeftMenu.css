@@ -1,0 +1,6 @@
+.leftMenu{
+    width: 240px;
+    height: 100%;
+    min-height: 100vh;
+    background: rgb(34,34,34);
+}

@@ -3,4 +3,22 @@
     height: 100%;
     min-height: 100vh;
     background: rgb(34,34,34);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
+
+.leftMenu .logoContainer{
+    color: #f1f1ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftMenu .logoContainer i{
+    font-size: 30px;
+}
+
+.leftMenu .logoContainer i:nth-of-type(2){
+    font-size: 20px !important;
+} 
